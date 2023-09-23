@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <!-- Iframes são quadros em linhas. Usados para colocar um conteúdo externo no site. Como um vídeo ou até mesmo outro Website. Ainda são usados, mas não tanto devido a uma limitação de segurança. -->
+
+    <!-- Este é um exemplo de iframe funcional, que coloca um site externo dentro do seu site. -->
+
+    <!-- O tamanho padrão de um iframe na tela é de 300x150 -->
+    <iframe src="http://dio.me" frameborder="0">Dio.me</iframe>
+
+    <!-- Exemplo de um vídeo do youtube em iframed. Disponibilizado pelo próprio YouTube. -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GWULnkTnapM?si=T3c3inkzPl-1dWx_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <!-- Exemplo de iframed que não funciona por uma limitação de segurança. Alguns sites não permitem que seu conteúdo seja mostrado em outros sites. -->
+    <iframe src="https://www.w3schools.com/html/html_iframe.asp" frameborder="0">w3schools</iframe>
+
+    <!-- Exemplo de iframed muito utilizado, uma localização no google maps, disponibilizada pela própria Google. -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170129.63951300274!2d16.21525292127898!3d48.22056713419098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079e5136ca9f%3A0xfdc2e58a51a25b46!2zVmllbmEsIMOBdXN0cmlh!5e0!3m2!1spt-BR!2sbr!4v1695496456917!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170129.63951300274!2d16.21525292127898!3d48.22056713419098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079e5136ca9f%3A0xfdc2e58a51a25b46!2zVmllbmEsIMOBdXN0cmlh!5e0!3m2!1spt-BR!2sbr!4v1695496456917!5m2!1spt-BR!2sbr"></a>
+    </iframe>
+
+    <!-- Alguns navegadores moblie não suportam iframeds, logo coloque na tag um texto alternativo para ser mostrado no lugar do quadro. Uma boa prática é colocar um link para a página, vídeo, etc, que o iframed estária mostrando,como no exemplo acima. Esse texto alternativo só aperece se o iframed não aparecer. -->
+</body>
+</html>
